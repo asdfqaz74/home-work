@@ -1,0 +1,163 @@
+/* 변수 */
+:root {
+  --gray-500: #c4c4c4;
+  --white: #fff;
+  --gray-800: #4E4E4E;
+}
+
+/* 일시적 background color */
+
+.box {
+  /* background: limegreen; */
+}
+
+.honey {
+  background: var(--White, #FFF);
+  
+}
+
+.handcream {
+  /* background: #ffafaf; */
+}
+
+.tea {
+  /* background: orange; */
+}
+
+/* 전체를 감싸는 박스 설정 */
+
+body, body *, body *::before, body *::after  {
+  box-sizing: border-box;
+  width: 502px;
+  height: 630px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 10px auto;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 윗 박스 설정 */
+
+.box1 {
+  border: 1px solid var(--gray-500);
+  width: 502px;
+  height: 310px;
+  display: flex;
+}
+
+.honey1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: inherit;
+}
+
+.honey2 {
+  width: 50%;
+  height: inherit;
+}
+
+/* 아랫 박스 설정 */
+
+.box2 {
+  /* float: left; */
+  /* background: black; */
+  height: 310px;
+}
+
+/* 꿀생강차 설정 */
+
+.honey-logo {
+  width: 112px;
+  height: 67px;
+  /* position: absolute;
+  top: 75px;
+  right: 317px; */
+}
+
+.honey-product {
+  width: 222px;
+  height: 270px;
+  /* position: absolute;
+  top: 20px;
+  right: 28px; */
+}
+
+.honey-text {
+  color: var(--gray-800);
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 24px;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 150%;
+  /* position: absolute; */
+  /* top: 155px;
+  right: 274px; */
+}
+
+.honey-button {
+
+}
+
+/* 핸드크림 설정 */
+
+.handcream {
+  width: 243px;
+  height: 310px;
+  border: 1px solid var(--gray-500);
+  background: #FFF;
+  float: left;
+  
+}
+
+.handcream-product {
+  width: 195.005px;
+  height: 196px;
+}
+
+.handcream-logo {
+  width: 114px;
+  height: 42px;
+}
+
+.handcream-button {
+  width: 42px;
+  height: 42px;
+}
+
+/* 보리차 설정 */
+
+.tea ::before {
+  margin: 5px;
+}
+
+.tea {
+  width: 243px;
+  height: 310px;
+  border: 1px solid var(--gray-500, #C4C4C4);
+  float: right;
+  background: #FFF;
+  
+}
+
+.tea-logo {
+  width: 114px;
+  height: 42px;
+  
+}
+
+.tea-product {
+  width: 195.005px;
+  height: 196px;
+  
+}
+
