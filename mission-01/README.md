@@ -222,10 +222,30 @@ Box들 분류
   top: 20px;
   right: 28px;
 }
+
+.handcream {
+  width: 243px;
+  height: 310px;
+  border: 1px solid var(--gray-500);
+  background: #FFF;
+  float: left;
+  position: relative;
+}
+
+.tea {
+  width: 243px;
+  height: 310px;
+  border: 1px solid var(--gray-500, #C4C4C4);
+  float: right;
+  background: #FFF;
+  position: relative;
+}
 ```
 + 꿀생강차가 들어가는 곳
 + 제일 큰 박스를 2 박스로 나누어 flex : column 으로 레이어 나눔
-+ 그 중 위의 박스에 꿀생강차를 배치
++ 그 중 box1 에 꿀생강차를 배치
++ box2 에 handcream 과 tea 를 배치
++ handcream 과 tea 는 각각 float: left , float: right 처리
 </br></br></br></br>
 
 
