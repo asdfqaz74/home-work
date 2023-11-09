@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/temp.css" />
+  <link rel="stylesheet" href="./css/mission-02.css" />
+  <title>이디야 로그인</title>
+</head>
+
+<body>
+  <main>
+    <!-- 로그인 및 환영메세지 -->
+    <div class="welcome">
+      <p class="login">로그인</p>
+      <p class="eng">
+        Welcome, Ediya Coffee
+      </p>
+      <p class="kor">
+        이디야커피에 오신 것을 환영합니다.
+      </p>
+    </div>
+    <!-- 로그인 폼 -->
+    <div class="container">
+      <form action="/" method="post">
+        <fieldset>
+          <!-- 이메일 -->
+          <p>
+            <label for="user-email">이메일</label>
+            <input id="user-email" type="email" required value="@" />
+          </p>
+          <!-- 패스워드 -->
+          <p>
+            <label for="user-password">비밀번호</label>
+            <input id="user-password" type="password" />
+          </p>
+          <!-- 로그인 / 회원가입 버튼 -->
+          <button>로그인</button>
+          <button>회원가입</button>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

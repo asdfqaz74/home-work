@@ -1,0 +1,47 @@
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+.spoka * { font-family: 'SpoqaHanSans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+/* 로그인 페이지 스타일  */
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* 환영 메세지 박스 */
+.login{
+  color: var(--unnamed, #FEFEFE);
+  text-align: center;
+  font-family: SpoqaHanSans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.eng {
+  margin-top: 24px;
+
+  color: var(--unnamed, #FEFEFE);
+  text-align: center;
+  font-family: SpoqaHanSans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.kor {
+  color: var(--unnamed, #FEFEFE);
+  text-align: center;
+  font-family: SpoqaHanSans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
