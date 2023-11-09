@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "dev": "live-server --open=mission-02/ --port=8090 --host=localhost --mount=/:mission-02/"
-  },
-  "dependencies": {
-    "live-server": "^1.2.2"
-  }
-}
