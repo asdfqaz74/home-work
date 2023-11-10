@@ -28,18 +28,30 @@
       <form action="/" method="post">
         <fieldset>
           <!-- 이메일 -->
-          <p>
-            <label for="user-email">이메일</label>
-            <input id="user-email" type="email" required value="@" />
+          <p class="email">
+            <label for="user-email" class="label-email">이메일</label>
+            <input id="user-email" type="email" class="input-email" />
           </p>
           <!-- 패스워드 -->
-          <p>
-            <label for="user-password">비밀번호</label>
-            <input id="user-password" type="password" />
+          <p class="password">
+            <label for="user-password" class="label-password">비밀번호</label>
+            <input id="user-password" type="password" class="input-password" />
           </p>
+          <!-- 이메일 저장 -->
+          <input type="checkbox" name="이메일 저장" id="remember-email" />
+          <label class="remember-email">이메일 저장</label>
           <!-- 로그인 / 회원가입 버튼 -->
-          <button>로그인</button>
-          <button>회원가입</button>
+          <div class="button">
+            <a href="/" class="login-button">
+              <p class="button-text">로그인</p>
+              <img src="./images/fill.svg" alt="" />
+            </a>
+            <a href="/" class="signup-button">
+              <p class="button-text">회원가입</p>
+              <img src="./images/fill.svg" alt="" />
+            </a>
+          </div>
+
         </fieldset>
       </form>
     </div>
