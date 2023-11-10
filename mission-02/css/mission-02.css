@@ -1,5 +1,10 @@
-@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
-.spoka * { font-family: 'SpoqaHanSans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+body {
+  background: url(./../images/background.png) no-repeat;
+  background-size: cover;
+}
+
 
 /* 로그인 페이지 스타일  */
 main {
@@ -13,7 +18,7 @@ main {
 .login{
   color: var(--unnamed, #FEFEFE);
   text-align: center;
-  font-family: SpoqaHanSans;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';  
   font-size: 36px;
   font-style: normal;
   font-weight: 300;
@@ -27,7 +32,7 @@ main {
 
   color: var(--unnamed, #FEFEFE);
   text-align: center;
-  font-family: SpoqaHanSans;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -38,10 +43,44 @@ main {
 .kor {
   color: var(--unnamed, #FEFEFE);
   text-align: center;
-  font-family: SpoqaHanSans;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.24px;
+  margin-bottom: 100px;
+}
+
+
+/* 데스크탑 미디어 */
+@media (min-width: 600px){
+  body{
+    background: url(./../images/background.png) no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  .kor {
+    margin-bottom: 100px;
+  }
+}
+
+/* 모바일 미디어 */
+@media (max-width: 600px){
+  body{
+    background: url(./../images/background2.png) no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    margin-top: 70px;
+  }
+
+  .kor {
+    margin-bottom: 114px;
+  }
 }
