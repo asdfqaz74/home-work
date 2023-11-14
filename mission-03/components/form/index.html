@@ -5,13 +5,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/style.css" />
-  <title>here-componets</title>
+  <title>form-componets</title>
 </head>
 
 <body>
-  <div class="component-container">
 
+
+  <div class="component-container">
+    <div class="form-wrapper">
+      <form action="/" method="post">
+        <h3 class="ready">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</h3>
+        <div class="input-wrapper">
+          <input type="email" id="" placeholder="이메일 주소" class="email-input" />
+          <label for="email" class="sr-only">이메일</label>
+          <button type="button" class="free-button">
+            <div class="free-text">
+              30일 무료 이용
+              <img src="/images/Arrow (Stroke).svg" alt="" />
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
+
+
 </body>
 
 </html>

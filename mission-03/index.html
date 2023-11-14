@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/index.css" />
+  <title>Netflix</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <img src="/images/Logo.svg" alt="" class="netflix-logo" />
+      <div class="header-wrapper">
+        <div class="select-wrap">
+          <img src="/images/global.svg" alt="" />
+          <select name="lang" id="lang-select">
+            <option value="">한국어</option>
+            <option value="">영어</option>
+          </select>
+        </div>
+        <div class="login-button">
+          <a href="/index.html" role="button" class="sign-in">
+            <span class="sign-text">로그인</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="infinite">영화, TV 프로그램을 무제한으로.</h1>
+    <p class="everywhere">다양한 디바이스에서 시청하세요. 언제든지 해지하실 수 있습니다.</p>
+
+    <div class="form-wrapper">
+      <form action="/" method="post">
+        <h3 class="ready">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</h3>
+        <div class="input-wrapper">
+          <input type="email" id="" placeholder="이메일 주소" class="email-input" />
+          <label for="email" class="sr-only">이메일</label>
+          <button type="button" class="free-button">
+            <div class="free-text">
+              30일 무료 이용
+              <img src="/images/Arrow (Stroke).svg" alt="" />
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </main>
+</body>
+
+</html>
