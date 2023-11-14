@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>header-componets</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <!-- 로고 -->
+      <figure>
+        <picture>
+          <source src="/images/Logo.svg" media="(max-width: 768px)" />
+          <source src="/images/Logo2.svg" media="(min-width: 768px)" />
+          <img src="/images/Logo2.svg" alt="넷플릭스" />
+        </picture>
+      </figure>
+
+      <div class="header-wrapper">
+        <!-- 언어선택 -->
+        <div class="select-wrap">
+          <img src="/images/global.svg" alt="" />
+          <select name="lang" id="lang-select">
+            <option value="">한국어</option>
+            <option value="">영어</option>
+          </select>
+        </div>
+
+        <!-- 로그인 페이지로 이동 -->
+        <div class="login-button">
+          <a href="/index.html" role="button" class="sign-in">
+            <span class="sign-text">로그인</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+</body>
+
+</html>

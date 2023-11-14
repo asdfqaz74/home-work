@@ -1,0 +1,60 @@
+.header {
+  font-size: 1em;
+  line-height: 1;
+  padding-top: 20px;
+}
+
+.header-inner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.75em;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5em;
+}
+
+/* 데스크탑 미디어 */
+@media (min-width: 768px) {
+  .header-inner {
+    width: clamp(700px, 80%, 1200px);
+    margin: 0 auto;
+  }
+  /* 80에서 140으로 */
+
+  .sign-in {
+    width: 4.375em;
+    height: 2.5em;
+  }
+
+  .sign-text {
+    font-size: 1em;
+  }
+}
+
+/* 모바일 미디어 */
+@media (max-width: 768px) {
+  .header-inner {
+    row-gap: 0.5em;
+  }
+
+  .header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .header-wrapper {
+    row-gap: 1em;
+  }
+
+  .select-wrap {
+    height: 1.875em;
+  }
+
+}
