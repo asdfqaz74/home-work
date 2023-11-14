@@ -21,14 +21,14 @@ a {
   background-color: #e50914;
   border-radius: 4px;
   width: 3.75em;
-  height: 1.875em;
+  height: 1.25em;
   padding: 0.75em 1.25em;
 }
 
 .sign-text {
   color: #fff;
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  font-size: 1em;
+  font-size: 0.75em;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: -0.006px;

@@ -26,7 +26,6 @@
     width: clamp(700px, 80%, 1200px);
     margin: 0 auto;
   }
-  /* 80에서 140으로 */
 
   .sign-in {
     width: 4.375em;
@@ -35,6 +34,11 @@
 
   .sign-text {
     font-size: 1em;
+  }
+
+  .netflix-logo {
+    width: 8.75em;
+    height: 2.375em;
   }
 }
 
