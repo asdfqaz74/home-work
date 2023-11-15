@@ -100,6 +100,19 @@ body {
     width: auto;
     text-align: center;
   }
+
+  .new-member {
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 0.75em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.000375em;
+    width: auto;
+  }
 }
 
 @media (max-width: 278px) {
@@ -107,3 +120,4 @@ body {
     margin-top: 1.875em;
   }
 }
+
