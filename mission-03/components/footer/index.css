@@ -1,0 +1,129 @@
+.component-container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 2rem;
+}
+
+
+/* footer 박스 */
+.footer {
+  border-top: 1px solid #aaa;
+  margin-top: 10.9375em;
+  padding: 2.875em 0 3.125em 0;
+  /* display: flex;
+  flex-flow: row nowrap; */
+  /* align-items: center; */
+}
+
+/* footer-inner 박스 */
+.footer-inner {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 12.5em;
+  margin-right: 12.5em;
+  justify-content: flex-start;
+}
+
+/* 문의전화 */
+.tel-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  color: var(--gray-200, #C8C8C8);
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.000625em;
+  margin-bottom: 3.125em;
+}
+
+.tel-number {
+  white-space: none;
+  padding-left: 0.3125em;
+}
+
+/* 가이드 링크 */
+.guide-wrapper {
+  padding-bottom: 2.875em;
+}
+
+.guide {
+  color: var(--gray-300, #ACACAC);
+  font-family:  'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  display: grid;
+  grid-template-columns: repeat(4, 13.5em);
+  row-gap: 0.625em;
+}
+
+@media (max-width: 1131px) {
+  .guide {
+    display: grid;
+    grid-template-columns: repeat(3, 13.5em);
+    row-gap: 0.625em;
+  }
+}
+
+@media (max-width: 931px) {
+  .guide {
+    display: grid;
+    grid-template-columns: repeat(2, 13.5em);
+    row-gap: 0.625em;
+  }
+}
+
+@media (max-width: 361px) {
+  .guide {
+    display: grid;
+    grid-template-columns: repeat(1, 13.5em);
+    row-gap: 0.625em;
+  }
+}
+
+/* 주소 */
+.address-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 1em;
+  margin-top: 2.875em;
+}
+
+.address-title {
+  color: var(--gray-300, #ACACAC);
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.address {
+  display: flex;
+  flex-flow: column wrap;
+  color: var(--gray-400, #919191);
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5; 
+  letter-spacing: -0.0005em;
+}
+
+
+
+@media (max-width: 768px) {
+  .footer-inner{
+    margin-left: 1.5625em;
+    width: auto;
+    margin-right: auto;
+  }
+
+  .tel-wrapper {
+    flex-flow: column wrap;
+  }
+}
+

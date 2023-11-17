@@ -1,7 +1,12 @@
 body {
-  background: url(./images/background.png) no-repeat,  linear-gradient(to top, black,transparent);;
+  background: url(./images/background.png) no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
+}
+
+.main-background {
+  background: linear-gradient(to top, black,transparent);
+  background-size: cover;
 }
 
 .main {
@@ -42,12 +47,21 @@ body {
   body {
     background: url(./images/background2.png) no-repeat;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
+  }
+
+  .main-background {
+    background:  linear-gradient(to top, black,transparent);
+    min-height: 100vh;
+  }
+
+  .header {
+    padding-bottom: 1.25em;
+    background: linear-gradient(to bottom, black,transparent);
   }
 
   .main {
     padding: 1.25em 1.125em;
-    background: #010101;
   }
 
   .infinite {

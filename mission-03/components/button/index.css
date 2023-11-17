@@ -74,6 +74,7 @@ a {
   width: 7.0625em;
   height: 2.5em;
   margin: 0;
+  color: #757575;
 }
 
 select::-ms-expand{
@@ -95,7 +96,7 @@ select::-ms-expand{
   padding-right: 0.5em;
 }
 
-#lang-select option{
+.langselect option{
   color: #000;
   background-color: #757575;
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
