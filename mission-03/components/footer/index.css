@@ -7,12 +7,9 @@
 
 /* footer 박스 */
 .footer {
+  background: black;
   border-top: 1px solid #aaa;
-  margin-top: 10.9375em;
   padding: 2.875em 0 3.125em 0;
-  /* display: flex;
-  flex-flow: row nowrap; */
-  /* align-items: center; */
 }
 
 /* footer-inner 박스 */
@@ -63,7 +60,7 @@
 @media (max-width: 1131px) {
   .guide {
     display: grid;
-    grid-template-columns: repeat(3, 13.5em);
+    grid-template-columns: repeat(3, auto);
     row-gap: 0.625em;
   }
 }
@@ -71,7 +68,7 @@
 @media (max-width: 931px) {
   .guide {
     display: grid;
-    grid-template-columns: repeat(2, 13.5em);
+    grid-template-columns: repeat(2, auto);
     row-gap: 0.625em;
   }
 }
@@ -79,7 +76,7 @@
 @media (max-width: 361px) {
   .guide {
     display: grid;
-    grid-template-columns: repeat(1, 13.5em);
+    grid-template-columns: repeat(1, auto);
     row-gap: 0.625em;
   }
 }
